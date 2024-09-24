@@ -1,0 +1,35 @@
+If you want the full version and license for commercial use,
+you can purchase here :
+
+https://fontkong.com/product/luimp/
+
+File Font Version : 
+
+1. Luimp.otf
+2. Luimp.ttf
+3. Luimp.woff
+4. Luimp Bold.otf
+5. Luimp Bold.ttf
+6. Luimp Bold.woff
+7. Luimp Bold Italic.otf
+8. Luimp Bold Italic.ttf
+9. Luimp Bold Italic.woff
+10. Luimp Bold Oblique.otf
+11. Luimp Bold Oblique.ttf
+12. Luimp Bold Oblique.woff
+13. Luimp Italic.otf
+14. Luimp Italic.ttf
+15. Luimp Italic.woff
+16. Luimp Light. otf
+17. Luimp Light.ttf
+18. Luimp Light.woff
+19. Luimp Light Italic.otf
+20. Luimp Light Italic.ttf
+21. Luimp Light Italic.woff
+22. Luimp Light Oblique.otf
+23. Luimp Light Oblique.ttf
+24. Luimp Light Oblique.woff
+25. Luimp Oblique.otf
+26. Luimp Oblique.ttf
+27. Luimp Oblique.woff
+

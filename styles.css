@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Luimp';
+    src: url('font/Luimp.ttf') format('truetype');
+    /* path font folder */
+}
+
+:root {
+    --foreground: #56B6B0;
+    --backgroud: #E6C7C5;
+}
+
+body {
+    margin: 0;
+    font-family: 'Luimp', cursive;
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-family: 'Luimp', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* Caixa que envolve todo o conteúdo */
+.box {
+    background: linear-gradient(rgba(255, 255, 255, 0.80),
+            rgba(255, 255, 255, 0.80)),
+        url('img/PATTERN_CHANTILLY_GOLD.png');
+    background-repeat: repeat;
+    background-size: 800px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+    /* Largura fixa da caixa */
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 300px;
+    margin: 30px 0;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn {
+    background-color: #56B6B0;
+    color: #F0ECEA;
+    border: none;
+    box-shadow: 0 2px 4px #2f2f2f;
+    margin-top: 20px;
+    /* Vertical position */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    /* O botão agora ocupa toda a largura da caixa */
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0);
+}
+
+.btn:hover {
+    background-color: #489893;
+    color: #f5f5f5;
+    cursor: pointer;
+   
+}
+
+.btn img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Tema escuro (aplicado automaticamente se o sistema usar tema escuro) */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000;
+        color: #5d5d5d;
+    }
+
+    .box {
+        background-color: rgb(232, 232, 232);
+        /* Transparência para caixa */
+        box-shadow: 0px 0px 20px rgba(251, 255, 29, 0.5);
+    }
+    
+}
+
+/* Tema claro (aplicado automaticamente se o sistema usar tema claro) */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #5d5d5d;
+    }
+
+    .box {
+        background-color: rgb(255, 255, 255);
+        /* Transparência para caixa */
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn {
+        background-color: #E6C7C5;
+        color: #5d5d5d;
+    }
+
+    .btn:hover {
+        background-color: rgb(247, 229, 227);
+        color: #5d5d5d;
+        cursor: pointer;
+    }
+
+}
